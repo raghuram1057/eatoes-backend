@@ -20,7 +20,7 @@ app.use(express.json());
 
 // Mount Routes
 app.use('/menu', menuRoutes);
-app.use('/api/orders', orderRoutes);
+app.use('/orders', orderRoutes);
 
 // Error Middleware (must be after routes)
 app.use(errorHandler);
